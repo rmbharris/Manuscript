@@ -1,8 +1,11 @@
 # Figure 1
 
 ![Figure 1](https://github.com/ZiliangTian/Manuscript/blob/master/Figure1.png)
-
-Figure 1: The left is differences in the spatial coverage between CCAM-ensemble and BARRA-TA. Blue is the 10 km-resolution CCAM-ensemble grid and in red indicates the area where the 1.5km0resolution BARRA-TA grid downscaled to 10 km-resolution extends beyond the CCAM-ensemble coverage. The right top one is one of the soil parameters (Volume fraction of condensed water in soil at critical point) in BARRA-TA. The right bottom one is two soil types in CCAM
+Figure 1: The left is differences in the spatial coverage between CCAM-ensemble and BARRA-TA. 
+Blue is the 10 km-resolution CCAM-ensemble grid and in red indicates the area where the 1.5km
+resolution BARRA-TA grid downscaled to 10 km-resolution extends beyond the CCAM-ensemble 
+coverage. The right top one is one of the soil parameters (Volume fraction of condensed water 
+in soil at critical point) in BARRA-TA. The right bottom one is two soil types in CCAM
 
 ## Comments
 * It is inaccuracy to compare soil typw with soil parameters;
