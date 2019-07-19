@@ -55,48 +55,59 @@ And it is acceptable for the transformation from the six layers into four new la
 # Figure 7
 ![Figure 7](https://github.com/ZiliangTian/Manuscript/blob/master/Figure7.png)
 ## Importance
-
+It can show the monthly time series and then present the different tendency between two periods.
+Also, the magnitude of values from CCAM models and BARRA-TA and different.
 ## What we expected
-
+The time series of BARRA-TA and CCAM models should be closed.
 ## What we found
-
+* BARRA got higher magnitude than CCAM models apart from the last two years at layer 3 and layer 4;
+* The time series of last two years at bottom layers are biased than the surface two layers.
+* Time series between CCAM models are very closed.
 # Figure 8
 ![Figure 8](https://github.com/ZiliangTian/Manuscript/blob/master/Figure8.png)
 ## Importance
-
+Figure 8 shows the correlation of soil moisture between CCAM models and BARRA-TA by its annual cycle;
+From this, we can see how good work CCAM model did compared with BARRA-TA;
+But what is the annual cycle means? It could not be equal to the monthly time series.
 ## What we expected
-
+We expected that this can do good simulation of CCAM models based on BARRA-TA.
+We also expected that this can be the powerful evidence to prove the good performance of CCAM models based on BARRA-TA.
 ## What we found
-
+Pretty Good performance at the top three layers.
 # Figure 9
 ![Figure 9](https://github.com/ZiliangTian/Manuscript/blob/master/Figure9.png)
 ## Importance
-
+It can show the similarity of soil moisture between CCAM models and BARRA-TA.
 ## What we expected
-
+Good performance, which might have been shown in Figure 8.
 ## What we found
-
+It is hard to conclude something.
+Perhaps, it prove that there are high ratio of grid cells with high confidence between CCAM models and BARRA-TA at the top three layers.
+It is also unsure to judge the critical point.
 # Figure 10
 ![Figure 10](https://github.com/ZiliangTian/Manuscript/blob/master/Figure10.png)
 ## Importance
-
+It can show the location of the grid cells with varied correlation clearly.
+It can provide us the visible output about the correlation over each grid cells.
 ## What we expected
-
+Clear difference between west and east region.
 ## What we found
-
+Most grid cells with high correlation are located at the west region, but also need to explain the grid cells in the middle region.
 # Figure 11
 ![Figure 11](https://github.com/ZiliangTian/Manuscript/blob/master/Figure11.png)
 ## Importance
-
+To explore the correlation seasonally. And represent the distribution of grid cells with each grid cells through four seasons.
 ## What we expected
-
+We except to get the seasonal variation of correlation regularly.
 ## What we found
-
+Irregular distribution over four seasons.
 # Figure 12
 ![Figure 12](https://github.com/ZiliangTian/Manuscript/blob/master/Figure12.png)
 ## Importance
-
+* Shows the future change. (wetter or drier?)
+* Indicate whether CCAM can provide a good performance.
 ## What we expected
-
+Significant and regular change.
 ## What we found
-
+Average time change over different seasons.
+Irregular change over seasons become drier.
