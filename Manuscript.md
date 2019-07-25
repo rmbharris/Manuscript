@@ -17,13 +17,15 @@ we are editting the same line
 # Authors
 Ziliang Tan (1,2), Tom Remenyi (1,3), Peter Love (1,3), Stuart Corney (1), Rebecca Harris (3)
 
- 1 Intitute for Marine and Antarctic Studies, University of Tasmania, Castray Esplanade, Hobart, Tasmania 7000, Australia
+ 1 Institute for Marine and Antarctic Studies, University of Tasmania, Castray Esplanade, Hobart, Tasmania 7000, Australia
 2 College of Oceanic and Atmospheric Science, Ocean University of China, 238 Songling Rd, Qingdao, Shangdong, China
-3 Spatial Science, University of Tasmania
+3 Discipline of Geography & Spatial Sciences, University of Tasmania
 
 # Abstract
-We assess the characteristics of soil moisture across the island of Tasmania in both a reanalyssi product (The Bureau of Meteorology Atmospheric high-resolution Regional Reanalysis (BARRA)) and an ensemble of simulations from a free-running regional climaye model (The CSIRO Conformal Cubic Atmospheric model (CCAM)). The analysis was undertaken over the period 2007-2014 for BARRA and 1961-2100 for CCAM. We compare soil moisture against related variables (precipitation, temperature and evaporation) to understand the impact of different land surface models within both CCAM and BARRA on their representation of soil moisture. Assuming BARRA is truth we then evaluate the performance of CCAM. We find CCAM and BARRA behave similarly in the surface layers, but exhibit different behaviour in the bottom layers. CCAM has high correlation with BARRA in the west of Tasmania where a strong seaosnal cycle in rainfall exists, but the correlation is lower in the east where rainfall is more sporadic. We explore the seasonal variation of soil moisture in CCAM, how it has been changed ni the past few decades and how it is projected to change in the future. Given the favourable comparise between BARRA and CCAM for the current climate the projected future changes across Tasmania are plausible, especially in western Tasmania. Soil moisture is projected to decrease rapidly in this region, with an amplification of trends already observed in the current period in comparison historical conditions.
-
+We assess the characteristics of soil moisture across the island of Tasmania in both a reanalysis product (The Bureau of Meteorology Atmospheric high-resolution Regional Reanalysis (BARRA)) and an ensemble of simulations from a free-running regional climaye model (The CSIRO Conformal Cubic Atmospheric model (CCAM)). The analysis was undertaken over the period 2007-2014 for BARRA and 1961-2100 for CCAM. We compare soil moisture against related variables (precipitation, temperature and evaporation) to understand the impact of different land surface models on the representation of soil moisture in both CCAM and BARRA. Assuming BARRA is truth we then evaluate the performance of CCAM. We find CCAM and BARRA behave similarly in the surface layers, but exhibit different behaviour in the bottom layers. CCAM is highly correlated with BARRA in the west of Tasmania where a strong seasonal cycle in rainfall exists, but the correlation is lower in the east where rainfall is more sporadic. We explore the seasonal variation of soil moisture in CCAM, how it has  changed over the past few decades and how it is projected to change in the future. Given the favourable comparison between BARRA and CCAM for the current climate, the projected future changes across Tasmania are plausible, especially in western Tasmania. Soil moisture is projected to decrease rapidly in this region, with an amplification of trends already observed in the current period.
+<!---
+Assuming BARRA is truth - we need to reword this
+-->
 # Key words
 Soil moisture, climate change, weather reanalysis, regional climate model
 <!---	<!---
@@ -36,10 +38,22 @@ Thank UTAS and OUC for providing the opportunity to do this project in my honour
 
 Thank my family for supporting and encouraging me in my honours year. Thank Chengcheng Yang for providing ideas.
 
+<!---
+Acknowledgments are usually put at the end of the manuscript
+-->
+
 # 1. Introduction
 With the high intensity of human activities, climate change research has gradually become a hot spot in the field of environment. Many human activities like large-scale burning and extensive land use have increased the concentration of greenhouse gases in the atmosphere, leading to near-surface and atmospheric warming. Global warming affects many aspects of our lives, and has a tremendous impact on the natural environment of the Earth.  
 
+<!---
+First paragraph maybe not necessary?
+-->
+
 Considering the potential impacts of global warming on soil quality, we have investigated the change in soil moisture in the region of Tasmania. Soil moisture is a measure of how much water is contained in a unit of soil. It plays an important role to both atmosphere and land surface by mediating energy and water fluxes (Peng et al. 2015; Seneviratne et al. 2010).
+
+<!---
+The introduction is going to need a few goes. Perhaps start with the paragraph at line 60, then the paragraph at line 58? Then line 52 further down 
+-->
 
 Soil moisture is affected by many environmental factors, like terrain, precipitation, evaporation and surface land temperature (Kowalczyk et al. 1994). Surface soil moisture can be influenced directly during and following precipitation events, and it can affect the deeper soil moisture indirectly by infiltration. Soil moisture can further affect water availability to plants which can variously control temperature and humidity in the soil (Bramer et al. 2018).
 
@@ -49,9 +63,17 @@ The variables most closely related to soil moisture are precipitation, surface t
 
 Precipitation, temperature and evaporation have a direct or indirect relationship with soil moisture. Precipitation will increase soil moisture effectively by adding moisture to the land surface. Temperature has a positive relation with the potential change of evaporation (Seneviratne et al. 2010). Higher temperature can cause high potential increase in evaporation which will directly decrease the moisture content of the soil.
 
+<!---
+You have repeated the precip, temp, evaporation seevral times. We need to consolidate these paragraphs.  
+-->
+
 The project’s study area is Tasmania, the island located southeast from mainland Australia. The topography of Tasmania consists of a central plateau, large areas of lowland on the east coastline as well as various mountain ranges in the south, west and north-east regions (Grose et al. 2010; White et al. 2013). In the western part of Tasmania, precipitation is strongly influenced by frontal systems, which are more powerful than the low system, but on the east coast, precipitation is dominated by the low system (Pook et al. 2010; White et al. 2013). Combined with topography and climate, there is a significant precipitation gradient which decreases towards the east. Influenced by the surrounding sea (Grose et al. 2010) and by altitude (White et al. 2013), the lowest temperatures are seen over the central plateau and the highest temperature are seen over the lowland along the east coast. The advantage of looking at Tasmania for assessing the model performance in soil moisture projections lies in its varied topography with precipitation, temperature and evaporation of various magnitudes.
 
 This project proposes the comparison of two methods used for improving model output: downscaling and reanalysis. Both can effectively output more accurate and comprehensive data than the data in global climate models. These two methods have been used in the Conformal Cubic Atmospheric Model (CCAM) and the Bureau of Meteorology atmospheric high-resolution Regional Reanalysis for Australia (BARRA). 
+
+<!---
+But downscaling and reanalysis have different purposes - perhaps we can reword this?  
+-->
 
 Downscaling means that low-resolution models are converted into more accurate and comprehensive high-resolution models by two optional means. Dynamical downscaling can transfer global climate models (GCMs) into fine-scale regional climate models (RCMs) by a limited area model or a stretched grid global climate model. CCAM uses the stretched grid global climate model method, and BARRA uses the limited area model method. 
 
